@@ -1,5 +1,5 @@
 body {font-family: "Roboto", sans-serif;
-color: #2e2f42;
+color: #434455;
 background-color: #ffffff;}
 
 ul {list-style-type: none;}
@@ -8,13 +8,17 @@ ul {list-style-type: none;}
     sans-serif;
 font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;}
 
 .logo-studio {color: #2e2f42;}
+
+.logo-web, .logo-studio:hover {color: #404bbf;} 
+
+.contact-info {font-style: normal;}
 
 .nav-element {font-weight: 500;
 font-size: 16px;
@@ -36,6 +40,8 @@ color: #2e2f42;}
 
     .adress-element:hover {color: #404bbf;}
 
+    .adress-element:focus {color: #404bbf;}
+
 .section-one {background-color: #2E2F42;}
 
 .section-one .main-title {font-weight: 700;
@@ -52,7 +58,10 @@ color: #2e2f42;}
     letter-spacing: 0.04em;
     color: #ffff;
 background-color: #4D5AE5;
-cursor: pointer;}
+cursor: pointer; font-family: "Roboto",
+sans-serif
+}
+
 
 .main-button:hover {
     background-color: #404bbf;
@@ -76,11 +85,16 @@ cursor: pointer;}
 
 .section-title {font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;}
+
+    .section-three: {background-color: #f4f4fd;}
+
+    .photo-team {background-color: #FFFFFF;}
 
     footer {background-color: #2e2f42;}
 
